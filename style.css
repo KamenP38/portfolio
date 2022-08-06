@@ -106,7 +106,8 @@ a{
 }
 
 .box  img{
-    width: 100%;
+    max-width: 100px;
+    max-heigth: 100px;
 }
 
 .box{
