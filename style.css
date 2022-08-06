@@ -77,8 +77,9 @@ a{
     /* align-items: center;
     justify-content: center; */
     font-size: 1.5em;
-    height: 50vh;
+    /* height: 50vh; */
     background-color: #444;
+    overflow:hidden;
 }
 
 .container p{
@@ -91,6 +92,8 @@ a{
     margin: 40px;
     width: auto;
     border-radius: 50%;
+    max-width: 200px;
+    height: 200px;
 }
 
 
