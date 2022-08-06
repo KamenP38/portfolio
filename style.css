@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 
-body{
+body, html{
     margin: auto 0;
     font-family: Arial;
+    max-width: 100vw;
 }
 
 .zone {
@@ -62,6 +63,7 @@ body{
 
 li{
     padding: 20px;
+    overflow: hidden;
 }
 
 a{
@@ -73,10 +75,11 @@ a{
 /* COVER */
 
 .container{
+    padding-top: 1rem;
     display: flex;
     /* align-items: center;
     justify-content: center; */
-    font-size: 1.5em;
+    font-size: 1.5rem;
     /* height: 50vh; */
     background-color: #444;
     overflow:hidden;
@@ -85,7 +88,7 @@ a{
 .container p{
     align-self: center;
     letter-spacing: 1.5px;
-    line-height: 36px;
+    line-height: 2.25rem;
 }
 
 .photo{
@@ -94,6 +97,10 @@ a{
     border-radius: 50%;
     width: 200px;
     height: auto;
+<<<<<<< HEAD
+    float: left;
+=======
+>>>>>>> 171be1736defb9825b13bb71346f8b9f9c1ac333
 }
 
 
@@ -107,7 +114,11 @@ a{
 
 .box  img{
     max-width: 100px;
+<<<<<<< HEAD
+    max-height: 100px;
+=======
     max-heigth: 100px;
+>>>>>>> 171be1736defb9825b13bb71346f8b9f9c1ac333
 }
 
 .box{
