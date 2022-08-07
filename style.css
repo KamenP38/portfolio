@@ -97,10 +97,7 @@ a{
     border-radius: 50%;
     width: 200px;
     height: auto;
-<<<<<<< HEAD
     float: left;
-=======
->>>>>>> 171be1736defb9825b13bb71346f8b9f9c1ac333
 }
 
 
@@ -114,17 +111,15 @@ a{
 
 .box  img{
     max-width: 100px;
-<<<<<<< HEAD
     max-height: 100px;
-=======
-    max-heigth: 100px;
->>>>>>> 171be1736defb9825b13bb71346f8b9f9c1ac333
 }
 
 .box{
-    display: flex;
+    display: flex;   
+    text-align: center;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-color: #444;
     padding: 20px 130px;
     margin: 20px;
